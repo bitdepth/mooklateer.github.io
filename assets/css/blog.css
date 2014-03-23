@@ -51,7 +51,7 @@ body {
 .post-list li a {
   font-size: 66px;
   font-size: 4.125rem;
-  line-height: 1;
+  line-height: 1.2;
   color: #444;
   font-family: "gooddog-new-1", "gooddog-new-2", "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -61,7 +61,7 @@ body {
 .post-list li a:hover {
   background-color: transparent;
   color: #444;
-  text-decoration: underline;
+  border-bottom: 3px solid #444;
 }
 .post-list li p {
   color: #444;
