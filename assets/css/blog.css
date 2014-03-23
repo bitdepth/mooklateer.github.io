@@ -52,19 +52,19 @@ body {
   font-size: 66px;
   font-size: 4.125rem;
   line-height: 1.2;
-  color: #444;
+  color: #555;
   font-family: "gooddog-new-1", "gooddog-new-2", "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .post-list li a:visited {
-  color: #444;
+  color: #555;
 }
 .post-list li a:hover {
   background-color: transparent;
-  color: #444;
-  border-bottom: 3px solid #444;
+  color: #222;
+  /*border-bottom: 3px solid #444;*/
 }
 .post-list li p {
-  color: #444;
+  color: #555;
   text-align: left;
   font-size: 24px;
   font-size: 1.5rem;
