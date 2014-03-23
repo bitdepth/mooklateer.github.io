@@ -1,0 +1,67 @@
+// Core variables and mixins
+@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "mixins.less";
+
+
+body {
+  background:#fff;
+}
+
+.nav-main {
+  background:none;
+  border-bottom:4px solid @altColor;
+
+  a {
+    color:@altColor;
+
+    &:visited {
+      color:@altColor;
+    }
+
+    &:hover {
+      color:@altColor;
+    }
+  }
+
+}
+
+.content {
+  text-align:left;
+}
+
+.post-list {
+
+  margin:1em 0 0 0;
+  padding:0;
+
+  li {
+
+    a {
+      .font-size(66);
+      line-height:1;
+      color:#444;
+
+      font-family: @altFontFamily;
+
+      &:visited {
+        color:#444;
+      }
+
+      &:hover {
+        background-color:transparent;
+        color:#444;
+        text-decoration: underline;
+      }
+    }
+
+    p {
+      color:#444;
+      text-align:left;
+      .font-size(24);
+      margin:0;
+      max-width:none;
+      line-height:1.3;
+      margin-top:1em;
+    }
+  }
+}

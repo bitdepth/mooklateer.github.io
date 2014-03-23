@@ -127,9 +127,7 @@ textarea {
   width: 100%;
   min-height: 28px;
   /* Make inputs at least the height of their button counterpart */
-
   /* Makes inputs behave like true block-level elements */
-
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -139,7 +137,7 @@ textarea {
 @import "layouts.less";*/
 /* Modular scale
 
-  http://modularscale.com/scale/?px1=16&px2=44&ra1=1.5&ra2=0 
+	http://modularscale.com/scale/?px1=16&px2=44&ra1=1.5&ra2=0 
 */
 /* Body Text */
 h1,
@@ -158,9 +156,8 @@ h6,
   margin: 36px 0 12px;
   margin: 2.25rem 0 0.75rem;
   font-family: "gooddog-new-1", "gooddog-new-2", "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*  line-height:48px;
-  line-height:3rem;*/
-
+  /*	line-height:48px;
+	line-height:3rem;*/
 }
 p {
   margin: 12px 0 12px;
@@ -621,7 +618,6 @@ a:focus {
 /* Layout */
 [role=main] {
   /*margin-top:@baseLineHeight * 4;*/
-
 }
 [role=navigation] {
   position: fixed;
@@ -670,9 +666,8 @@ a:focus {
   min-height: 120rem;
 }
 #about {
-  /*  margin-bottom:144px;
-  margin-bottom:@baseLineHeight * 6;*/
-
+  /*	margin-bottom:144px;
+	margin-bottom:@baseLineHeight * 6;*/
 }
 .about {
   background: url(/assets/img/panel.bg.png) repeat-x;
@@ -726,15 +721,15 @@ a:focus {
   margin-right: 24px;
   margin-right: 1.5rem;
 }
-.nav-main a:hover {
-  background-color: transparent;
-  color: #ffffff;
-}
 .nav-main a:visited {
   color: #ffffff;
 }
 .nav-main a:focus {
   color: #ffffff;
+}
+.nav-main a:hover {
+  background-color: transparent;
+  color: #19bcb9;
 }
 .nav-main a:last-child {
   margin-right: 0;

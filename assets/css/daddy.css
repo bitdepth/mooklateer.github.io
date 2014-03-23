@@ -19,9 +19,7 @@
   width: 100%;
   min-height: 28px;
   /* Make inputs at least the height of their button counterpart */
-
   /* Makes inputs behave like true block-level elements */
-
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -29,9 +27,8 @@
 }
 /* Layout */
 .wrapper {
-  /*  margin-bottom:72px;
-  margin-bottom:@baseLineHeight * 3;*/
-
+  /*	margin-bottom:72px;
+	margin-bottom:@baseLineHeight * 3;*/
   padding-top: 96px;
   padding-top: 6rem;
 }
@@ -47,6 +44,10 @@
 .nav-main a {
   font-size: 24px;
   font-size: 1.5rem;
+  line-height: 72px;
+  line-height: 4.5rem;
+  margin-right: 24px;
+  margin-right: 1.5rem;
 }
 .nav-work .site-info {
   position: absolute;
