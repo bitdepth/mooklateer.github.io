@@ -7,6 +7,21 @@ body {
   background:#fff;
 }
 
+a {
+  font-family: @altFontFamily;
+
+  color:@altColor;
+
+  &:visited {
+    color:@altColor;
+  }
+
+  &:hover {
+    background-color:@altColor;
+    color:#fff;
+  }
+}
+
 .nav-main {
   background:none;
   border-bottom:4px solid @altColor;
@@ -36,22 +51,14 @@ body {
 
   li {
 
-    a {
+    .post-title {
       .font-size(66);
       line-height:1.2;
       color:#555;
 
-      font-family: @altFontFamily;
-
-      &:visited {
-        color:#555;
-      }
-
       &:hover {
-        background-color:transparent;
+        background-color: transparent;
         color:#222;
-        /*border-bottom: 3px solid #444;*/
-
       }
     }
 

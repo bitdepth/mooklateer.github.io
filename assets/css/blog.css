@@ -28,6 +28,17 @@
 body {
   background: #fff;
 }
+a {
+  font-family: "gooddog-new-1", "gooddog-new-2", "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #19bcb9;
+}
+a:visited {
+  color: #19bcb9;
+}
+a:hover {
+  background-color: #19bcb9;
+  color: #fff;
+}
 .nav-main {
   background: none;
   border-bottom: 4px solid #19bcb9;
@@ -48,20 +59,15 @@ body {
   margin: 1em 0 0 0;
   padding: 0;
 }
-.post-list li a {
+.post-list li .post-title {
   font-size: 66px;
   font-size: 4.125rem;
   line-height: 1.2;
   color: #555;
-  font-family: "gooddog-new-1", "gooddog-new-2", "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.post-list li a:visited {
-  color: #555;
-}
-.post-list li a:hover {
+.post-list li .post-title:hover {
   background-color: transparent;
   color: #222;
-  /*border-bottom: 3px solid #444;*/
 }
 .post-list li p {
   color: #555;

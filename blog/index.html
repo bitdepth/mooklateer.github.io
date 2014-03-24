@@ -8,8 +8,8 @@ title: The online home of Colin Clark - Digital designer/developer based in Glas
 		<ul class="post-list">
 		  {% for post in site.posts %}
 		    <li>
-		      <a href="{{ post.url }}">{{ post.title }}</a>
-		      <p>{{ post.content | truncatewords:255 | strip_html }}</p>
+		      <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+		      <p>{{ post.content | truncatewords:255 }}</p>
 		    </li>
 		  {% endfor %}
 		</ul>
