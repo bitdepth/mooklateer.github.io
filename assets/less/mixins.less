@@ -629,3 +629,71 @@
   }
 
 }
+
+
+@block-grid-default-spacing:20px;
+@default-float:left;
+@include-html-grid-classes: true;
+@include-spacing:true;
+@per-row:false;
+
+.block-grid( @per-row:0, @spacing:@block-grid-default-spacing, @include-spacing:true, @base-style:true) {
+
+  .a () when (@base-style = true) {
+    display: block;
+    padding: 0;
+    margin: 0 (-@spacing/2);
+    .clearfix();
+
+    &>li {
+      display: block;
+      height: auto;
+      float: @default-float;
+      box-sizing:border-box;
+    }
+  }
+
+  .a;
+
+  .b () when (@include-spacing = true) {
+    &>li {
+        padding: 0 (@spacing/2);
+    }
+  }
+
+  .b;
+
+  .c () when (@per-row > 0) {
+    &>li {
+      width: 100%/@per-row;
+      list-style: none;
+
+      &:nth-of-type(n) { clear: none; }
+      &:nth-of-type(@{per-row}n+1) { clear: both; }
+    }
+  }
+
+  .c;
+
+  .d () when (@include-spacing = true) {
+    &>li{
+      padding: 0 (@spacing/2) @spacing;
+    }
+  }
+
+  .d;
+
+/*  .if (@per-row) when (@per-row = true) {
+    &>li {
+      width: 100%/@per-row;
+      .if (@include-spacing) when (@include-spacing = true) {
+        padding: 0 (@spacing/2) @spacing;
+      }
+      list-style: none;
+
+      &:nth-of-type(n) { clear: none; }
+      &:nth-of-type(@{per-row}n+1) { clear: both; }
+    }
+  }*/
+
+}
