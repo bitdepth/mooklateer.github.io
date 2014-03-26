@@ -755,8 +755,7 @@ p {
 .nav-work {
   background: url(/assets/img/noise.dark.bg.png);
   margin-bottom: 0;
-  /* background: #ffd847; */
-  border: 4px dashed #413f3b;
+  border: 4px dashed #ffd847;
   padding: 3rem;
   /*	padding:0;
 	margin-top:48px;

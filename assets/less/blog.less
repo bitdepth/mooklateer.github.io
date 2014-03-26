@@ -24,7 +24,7 @@ a {
 
 .nav-main {
   background:none;
-  border-bottom:4px solid @altColor;
+  /*border-bottom:4px solid @altColor;*/
 
   a {
     color:@altColor;
@@ -44,14 +44,7 @@ a {
   text-align:left;
 }
 
-.post-list {
-
-  margin:1em 0 0 0;
-  padding:0;
-
-  li {
-
-    .post-title {
+.post-title {
       .font-size(66);
       line-height:1.2;
       color:#555;
@@ -60,8 +53,10 @@ a {
         background-color: transparent;
         color:#222;
       }
-    }
+}
 
+
+.post {
     p {
       color:#555;
       text-align:left;
@@ -70,6 +65,11 @@ a {
       max-width:none;
       line-height:1.3;
       margin-top:1em;
+      text-align:left;
     }
-  }
+}
+
+.post-list {
+  margin:1em 0 0 0;
+  padding:0;
 }
