@@ -167,8 +167,7 @@ p {
   font-size: 1em;
   line-height: 24px;
   line-height: 1.5rem;
-  max-width: 480px;
-  max-width: 30rem;
+  max-width: 45rem;
 }
 h1,
 .h1 {
@@ -587,6 +586,7 @@ body {
   background: #262523 url(/assets/img/noise.png);
   color: #ffffff;
   width: 100%;
+  padding-top: 6rem;
 }
 img {
   max-width: 100%;
@@ -667,6 +667,9 @@ p {
 .wrapper:after {
   clear: both;
 }
+.text-left {
+  text-align: left;
+}
 #contact {
   min-height: 1920px;
   min-height: 120rem;
@@ -745,7 +748,7 @@ p {
 }
 .work {
   background-color: #262523;
-  padding-top: 3rem;
+  padding: 3rem 0;
 }
 .work h1 {
   margin-top: 0;
@@ -757,6 +760,22 @@ p {
   margin-bottom: 0;
   border: 4px dashed #ffd847;
   padding: 3rem;
+  display: block;
+  padding: 0;
+  margin: 0 -10px;
+  *zoom: 1;
+  /*  .if (@per-row) when (@per-row = true) {
+    &>li {
+      width: 100%/@per-row;
+      .if (@include-spacing) when (@include-spacing = true) {
+        padding: 0 (@spacing/2) @spacing;
+      }
+      list-style: none;
+
+      &:nth-of-type(n) { clear: none; }
+      &:nth-of-type(@{per-row}n+1) { clear: both; }
+    }
+  }*/
   /*	padding:0;
 	margin-top:48px;
 	margin-top:@baseLineHeight * 2;
@@ -811,6 +830,36 @@ p {
 		margin-right:0;
 	}*/
 }
+.nav-work:before,
+.nav-work:after {
+  display: table;
+  content: "";
+}
+.nav-work:after {
+  clear: both;
+}
+.nav-work > li {
+  display: block;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+}
+.nav-work > li {
+  padding: 0 10px;
+}
+.nav-work > li {
+  width: 50%;
+  list-style: none;
+}
+.nav-work > li:nth-of-type(n) {
+  clear: none;
+}
+.nav-work > li:nth-of-type(2n + 1) {
+  clear: both;
+}
+.nav-work > li {
+  padding: 0 10px 20px;
+}
 .nav-work h3 {
   margin-top: 0;
 }
@@ -828,39 +877,6 @@ p {
 }
 .nav-work a:hover {
   background-color: #33322f;
-}
-.nav-social-web {
-  margin-top: 48px;
-  margin-top: 3rem;
-}
-.nav-social-web a:last-child {
-  margin-right: 0;
-}
-.nav-social-web a {
-  opacity: 1;
-  margin-right: 12px;
-  margin-right: 0.75rem;
-  text-indent: -999em;
-  overflow: hidden;
-  background: url(/assets/img/social.icons.2.png) no-repeat;
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-}
-.nav-social-web a:hover {
-  opacity: 1;
-}
-.nav-social-web .linkedin {
-  background-position: -66px 0;
-}
-.nav-social-web .lastfm {
-  background-position: -132px 0;
-}
-.nav-social-web .flickr {
-  background-position: -198px 0;
-}
-.nav-social-web .github {
-  background-position: -264px 0;
 }
 /* Intro Module */
 .intro h1 {
@@ -989,6 +1005,49 @@ p {
 .things-made > li {
   padding: 0 10px 20px;
 }
+footer {
+  padding: 6rem;
+  background: url(/assets/img/noise.dark.bg.png);
+}
+footer h3 {
+  margin-top: 0;
+}
+footer .bio {
+  box-sizing: border-box;
+  width: 40%;
+  float: left;
+}
+footer .bio img {
+  border: 6px solid #ffd847;
+  border-radius: 151px;
+  float: left;
+  margin-right: 1.5rem;
+  overflow: hidden;
+}
+footer .social {
+  padding-left: 3rem;
+  box-sizing: border-box;
+  width: 60%;
+  float: left;
+}
+footer .disclaimer {
+  clear: left;
+  font-size: 14px;
+  font-size: 0.875rem;
+  padding-top: 3rem;
+  max-width: 60rem;
+}
+footer .nav-social-web a {
+  font-size: 64px;
+  font-size: 4rem;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+footer .nav-social-web a:hover {
+  background-color: transparent;
+  color: #ffd847;
+}
 /* Heading Module */
 .page-heading {
   padding: 10px 0;
@@ -1011,84 +1070,6 @@ p {
 }
 .sticker {
   background: url(/assets/img/heading.bg.png) no-repeat center center;
-}
-/* Forms */
-input,
-textarea {
-  color: #fff;
-}
-.input {
-  text-align: left;
-}
-.input-text {
-  background: url(/assets/img/forms/text.bg.png) no-repeat;
-  width: 300px;
-  height: 60px;
-  height: 3.75rem;
-  margin-bottom: 24px;
-  margin-bottom: 1.5rem;
-}
-.input-textarea {
-  background: url(/assets/img/forms/textarea.bg.png) no-repeat;
-  width: 300px;
-  height: 252px;
-}
-input[type=text] {
-  background: transparent;
-  border: none;
-  height: 48px;
-  height: 3rem;
-  padding-left: 24px;
-  padding-left: 1.5rem;
-  width: 252px;
-}
-textarea {
-  padding: 24px;
-  padding: 1.5rem;
-  background: transparent;
-  border: none;
-  width: 252px;
-  height: 204px;
-}
-input:focus {
-  outline: none;
-}
-.contact-text hgroup {
-  margin: 0;
-  padding: 12px 24px 0;
-  padding: 0.75rem 1.5rem 0;
-}
-.contact-text p {
-  padding: 12px 24px 24px;
-  padding: 0.75rem 1.5rem 1.5rem;
-}
-.contact-text {
-  background: url(/assets/img/noise.dark.bg.png);
-}
-.contact-form {
-  margin: 0 auto;
-  width: 300px;
-}
-.contact-text,
-.contact-text p {
-  text-align: left;
-}
-.button {
-  display: block;
-  background: url(/assets/img/forms/button.bg.png) no-repeat;
-  height: 42px;
-  height: 2.625rem;
-  border: none;
-  padding: 0 24px 0 36px;
-  padding: 0 1.5rem 0 2.25rem;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-size: 1.5rem;
-  margin-top: 24px;
-  margin-top: 1.5rem;
-  text-shadow: 1px 1px 1px rgba(16, 16, 15, 0.6);
-  float: right;
 }
 .pull-right {
   float: right;
@@ -1286,4 +1267,39 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 .mhl,
 .mal {
   margin-left: 20px !important;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('/assets/fonts/icomoon.eot?-p7m932');
+  src: url('/assets/fonts/icomoon.eot?#iefix-p7m932') format('embedded-opentype'), url('/assets/fonts/icomoon.woff?-p7m932') format('woff'), url('/assets/fonts/icomoon.ttf?-p7m932') format('truetype'), url('/assets/fonts/icomoon.svg?-p7m932#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-googleplus:before {
+  content: "\e600";
+}
+.icon-instagram:before {
+  content: "\e601";
+}
+.icon-twitter:before {
+  content: "\e602";
+}
+.icon-github:before {
+  content: "\e603";
+}
+.icon-soundcloud:before {
+  content: "\e604";
 }
