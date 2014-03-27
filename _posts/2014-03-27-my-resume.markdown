@@ -1,0 +1,82 @@
+---
+layout: post
+title:  "Colin Clark Resume"
+date:   2014-03-27 15:44:00
+categories: misc
+---
+
+Skills
+CSS3, jQuery, jQueryUI, JavaScript, AJAX, JSON, HTML5, PHP, Codeigniter, Laravel, Sublime Text, Agile, Scrum, Kanban, Target Process, MySQL, JSON, REST, Facebook API, Twitter API, Git, SVN, MVC, OOP, Module Pattern, AMD, RequireJS, Bootstrap, Zurb Foundation 5, Node, Backbone, Backbone Marionette, ExpressJS, Grunt, MongoDb, Jekyll, Github pages, Adobe Photoshop, Adobe Fireworks, Adobe Illustrator, Google Analytics, Mobile First, Responsive Design, One web,
+
+
+## What's the most amazing application you've built
+
+My heaviest involvement over the last 5 years has been with [STV Player][], the catchup service. I'm most proud of the work we have done on this because i helped build this from nothing and it has become a corner stone of STV's offering, delivering over 1 million individual streams per month and increasing revenue year on year. 
+
+## What do you look for in a company
+
+Good communication is one of the keys for me, especially between developers. An openness to new ideas or new ways of doing things, somewhere no question is considered stupid and a non judgmental enviroment. A company that really values it's employees and realises it's the employees that have the power to make the company succesfull. A company that keeps ahead of the pack by investing in it's people and keeping up to date with new technologies. A company that's willing to make hard decisions for the greater good and listens.
+
+## Experience
+
+
+
+Freelance Developer - [Wood Mackenzie][woodmac]
+
+July 2012 - October 2012
+A three month contract to deliver a set of HTML prototypes for the re-design of their information portal application. I worked closely with the UX and Design teams to help deliver a great product.
+Technologies used: LESS, CSS3, HTML5, Boostrap 2.0, RequireJS, Grunt, Express, Middleman
+
+
+April 2012 - July 2012
+A two month work hiatus while my partner and i did some travelling in South America visiting Peru, Ecuador and the Galapagos Islands.
+
+Senior Front End Developer
+October 2008 - April 2012
+
+I was the senior Javascript, CSS and HTML developer and worked closely with design and server side teams to deliver the ‘STV anywhere’ vision. A range of web based products that work across multiple platforms and devices.
+
+### Key achievements
+
+*    Part of the original team that grew the business from 5000 uniques per day to over 300,000 and delivers over 1 million video streams per month via the VoD offering.
+*    Key player in defining front end digital strategy by creating the development guidelines, technical specifications, accessibility guidelines and browser testing processes.
+*     Lead front end developer on our VoD catch-up service, delivered a range of products targeting desktop, tablet, mobile and TV devices. Helped deliver HTML5 video on iOS devices and integrated ad serving technology.
+*    Rebuilt news platform using latest responsive techniques, fluid grid, multiple breaking points and fluid images/video.
+*    Introduced a range of performance best practices to the development and deployment process. File merging, minification, gzipping, placing scripts at the end of the page, lazy loading AJAX content and far future expires headers.
+*    Authored team coding standards for Javascript and CSS. Helped to create the visual style guide and pattern library used as the building blocks of the sites.
+*    Delivered many web applications for mobile devices and helped to build a mobile device testing library at STV.
+*    Pushed through a move toward using CSS pre processors in our workflow starting with LESS but later moving to SASS.
+
+Technologies used: LESS/SASS, HTML5, Codeigniter, PHP, MySQL, Javascript, jQuery, jQueryUI, Facebook/Twitter API's, REST
+
+#### Sites
+
+http://www.stv.tv
+
+
+Front End Developer / Interactive Designer
+Newsquest Ltd
+October 2007 - October 2008
+
+Web Designer
+Live Gigs Online
+Jan 2006 - September 2007
+
+Flash Developer
+Soccericulum
+May 2005 - December 2006
+
+Web Designer
+Ithos
+September 2004 - April 2005
+
+Web Designer / Flash Developer
+Nolly Barge
+Jan 2004 - August 2004 
+
+
+
+[stv-player]: http://player.stv.tv/
+[bitdepth]: http://bitdepth.co.uk/
+[stuff-nonsense]
+[woodmac]: http://www.woodmac.com/
