@@ -9,7 +9,7 @@ title: The online home of Colin Clark - Digital designer/developer based in Glas
 		  {% for post in site.posts %}
 		    <li class="post">
 		      <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
-		      <p>{{ post.content | truncatewords:255 }}</p>
+		      <p>{{ post.content | truncatewords:25 }}</p>
 		    </li>
 		  {% endfor %}
 		</ul>
